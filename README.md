@@ -37,7 +37,28 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```python
+using UnityEngine;
+
+public class exp1 : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.left, Vector3.up, 40 * Time.deltaTime);
+    }
+}
+```
 
 ## Output:
+<img width="1919" height="1163" alt="Screenshot 2025-10-15 142331" src="https://github.com/user-attachments/assets/3dbd23b2-dd54-4ef0-97f3-699e20073ce7" />
+
 
 ## Result:
+THE PROGRAM HAS RUN SUCCESSFULLY
